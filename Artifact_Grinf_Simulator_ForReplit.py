@@ -31,7 +31,7 @@ if __name__ == '__main__':
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # 定義部
-TOKEN = 'MTA2ODAxNjY1NTUwMzk4MjY0NA.Gq3RFw.IfEgprHPPPk_k3gb0WH6FPQwbF743JosbxugTM'
+TOKEN = 'DISCORD_BOT_TOKEN'
 
 intents = discord.Intents.default()
 intents.message_content = True
