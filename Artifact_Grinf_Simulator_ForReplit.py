@@ -12,6 +12,7 @@ import discord
 from flask import Flask
 import string
 import asyncio
+import webserver
 
 app = Flask(__name__)
 
@@ -1174,6 +1175,7 @@ async def on_message(message):
         await message.channel.send(file=image_file, embed=embed_help)
         await message.channel.send(file=icon_flower, embed=embed_help_twitter)
 
+webserver.run()
 client.run(TOKEN)
 
 
